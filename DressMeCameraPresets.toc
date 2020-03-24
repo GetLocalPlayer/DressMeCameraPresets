@@ -1,0 +1,9 @@
+## Interface: 30300
+## Notes: This is mah shit
+## SavedVariables: DressMeCameraPresets
+## SavedVariables: DressMeModernCameraPresets
+
+
+EditBox.lua
+DressingRoom.lua
+Core.lua

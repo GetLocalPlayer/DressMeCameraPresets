@@ -42,7 +42,7 @@ function ns:CreateDressingRoom(name, parent)
     frame:SetMaxResize(initWidth, initHeight)
     frame:SetFrameStrata("FULLSCREEN_DIALOG")
     frame:SetBackdrop(frameBackdrop)
-    frame:SetBackdropColor(0.15, 0.15, 0.15, 1)
+    frame:SetBackdropColor(0.25, 0.25, 0.25, 1)
 
     local model = CreateFrame("DressUpModel", nil, frame)
     model:SetPoint("TOPLEFT", frameBackdrop.insets.left * 2, -frameBackdrop.insets.top * 2)

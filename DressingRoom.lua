@@ -119,18 +119,8 @@ function ns:CreateDressingRoom(name, parent)
     dbgInfo:SetJustifyH("LEFT")
     dbgInfo:SetJustifyV("BOTTOM")
 
-    local minimalDress = {}
-    -- Clothes that will be pulled on the
-    -- character after pressing undressing.
-    function frame:SetMinimalDress(dress)
-        minimalDress = dress
-    end
-
     function frame:Undress()
         model:Undress()
-        for i = 1, #minimalDress do
-            model:TryOn(minimalDress[i])
-        end
     end
 
     function frame:Reset()

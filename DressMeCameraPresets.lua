@@ -86,15 +86,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -104,7 +95,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -131,7 +131,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -180,6 +180,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -190,15 +199,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -330,15 +330,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -348,7 +339,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -375,7 +375,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -424,6 +424,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -434,15 +443,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -576,15 +576,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -594,7 +585,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -621,7 +621,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -670,6 +670,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -680,15 +689,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -820,15 +820,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -838,7 +829,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -865,7 +865,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -914,6 +914,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -924,15 +933,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1066,15 +1066,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -1084,7 +1075,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1111,7 +1111,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1160,6 +1160,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -1170,15 +1179,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1310,15 +1310,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -1328,7 +1319,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1355,7 +1355,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1404,6 +1404,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 99.99992258564492,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -1414,15 +1423,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1556,15 +1556,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -1574,7 +1565,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1601,7 +1601,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1650,6 +1650,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -1660,15 +1669,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1800,15 +1800,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -1818,7 +1809,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1845,7 +1845,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -1894,6 +1894,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -1904,15 +1913,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2046,15 +2046,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -2064,7 +2055,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2091,7 +2091,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2140,6 +2140,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -2150,15 +2159,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2290,15 +2290,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -2308,7 +2299,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2335,7 +2335,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2384,6 +2384,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -2394,15 +2403,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2536,15 +2536,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -2554,7 +2545,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2581,7 +2581,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2630,6 +2630,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -2640,15 +2649,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2780,15 +2780,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -2798,7 +2789,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 99.99992258564492,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2825,7 +2825,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -2874,6 +2874,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -2884,15 +2893,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3026,15 +3026,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -3044,7 +3035,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3071,7 +3071,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3120,6 +3120,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -3130,15 +3139,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3270,15 +3270,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -3288,7 +3279,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3315,7 +3315,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3364,6 +3364,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -3374,15 +3383,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3516,15 +3516,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -3534,7 +3525,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3561,7 +3561,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3610,6 +3610,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -3620,15 +3629,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3760,15 +3760,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -3778,7 +3769,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3805,7 +3805,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -3854,6 +3854,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -3864,15 +3873,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4006,15 +4006,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -4024,7 +4015,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4051,7 +4051,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4100,6 +4100,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -4110,15 +4119,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4250,15 +4250,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -4268,7 +4259,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4295,7 +4295,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4344,6 +4344,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -4354,15 +4363,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4496,15 +4496,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -4514,7 +4505,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4541,7 +4541,7 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4590,6 +4590,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -4600,15 +4609,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4740,15 +4740,6 @@ DressMeCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -4758,7 +4749,16 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4785,7 +4785,7 @@ DressMeCameraPresets = {
 					["facing"] = 0.7148863077163696,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4834,6 +4834,15 @@ DressMeCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -4844,15 +4853,6 @@ DressMeCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -4988,15 +4988,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5006,7 +4997,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5033,7 +5033,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5082,6 +5082,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5092,15 +5101,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5232,15 +5232,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5250,7 +5241,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5277,7 +5277,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5326,6 +5326,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5336,15 +5345,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5478,15 +5478,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5496,7 +5487,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5523,7 +5523,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5572,6 +5572,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5582,15 +5591,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5722,15 +5722,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5740,7 +5731,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5767,7 +5767,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5816,6 +5816,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5826,15 +5835,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -5968,15 +5968,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -5986,7 +5977,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -6013,7 +6013,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -6062,6 +6062,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -6072,15 +6081,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -6212,15 +6212,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0.1109336018562317,
-					["x"] = 2.699999570846558,
-					["sequence"] = 13,
-					["z"] = 0.09727971255779266,
-					["height"] = 80.00000109419584,
-					["facing"] = 4.71238899230957,
-					["width"] = 120.000071669827,
-				},
 				["Dagger"] = {
 					["y"] = 0.2175997942686081,
 					["x"] = 2.699999570846558,
@@ -6230,11 +6221,20 @@ DressMeModernCameraPresets = {
 					["facing"] = 4.71238899230957,
 					["width"] = 120.000071669827,
 				},
-				["Shield"] = {
-					["y"] = 0.06826696544885635,
-					["x"] = 2.499999761581421,
-					["sequence"] = 3,
-					["z"] = 0.002559893066063523,
+				["Axe"] = {
+					["y"] = 0.1109336018562317,
+					["x"] = 2.699999570846558,
+					["sequence"] = 13,
+					["z"] = 0.09727971255779266,
+					["height"] = 80.00000109419584,
+					["facing"] = 4.71238899230957,
+					["width"] = 120.000071669827,
+				},
+				["Mace"] = {
+					["y"] = 0.1706665456295013,
+					["x"] = 2.599999666213989,
+					["sequence"] = 13,
+					["z"] = 0.04607996717095375,
 					["height"] = 80.00000109419584,
 					["facing"] = 4.71238899230957,
 					["width"] = 120.000071669827,
@@ -6257,11 +6257,11 @@ DressMeModernCameraPresets = {
 					["facing"] = 5.23737907409668,
 					["width"] = 120.000071669827,
 				},
-				["Mace"] = {
-					["y"] = 0.1706665456295013,
-					["x"] = 2.599999666213989,
-					["sequence"] = 13,
-					["z"] = 0.04607996717095375,
+				["Shield"] = {
+					["y"] = 0.06826696544885635,
+					["x"] = 2.499999761581421,
+					["sequence"] = 3,
+					["z"] = 0.002559893066063523,
 					["height"] = 80.00000109419584,
 					["facing"] = 4.71238899230957,
 					["width"] = 120.000071669827,
@@ -6306,6 +6306,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 1.570796370506287,
 					["width"] = 120.000071669827,
 				},
+				["Axe"] = {
+					["y"] = -0.09813326597213745,
+					["x"] = 2.399999856948853,
+					["sequence"] = 5,
+					["z"] = -0.07168004661798477,
+					["height"] = 80.00000109419584,
+					["facing"] = 1.570796370506287,
+					["width"] = 120.000071669827,
+				},
 				["Dagger"] = {
 					["y"] = -0.1407993733882904,
 					["x"] = 2.899999380111694,
@@ -6320,15 +6329,6 @@ DressMeModernCameraPresets = {
 					["x"] = 2.599999666213989,
 					["sequence"] = 5,
 					["z"] = -0.04607986658811569,
-					["height"] = 80.00000109419584,
-					["facing"] = 1.570796370506287,
-					["width"] = 120.000071669827,
-				},
-				["Axe"] = {
-					["y"] = -0.09813326597213745,
-					["x"] = 2.399999856948853,
-					["sequence"] = 5,
-					["z"] = -0.07168004661798477,
 					["height"] = 80.00000109419584,
 					["facing"] = 1.570796370506287,
 					["width"] = 120.000071669827,
@@ -6458,15 +6458,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -6476,7 +6467,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -6503,7 +6503,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -6552,6 +6552,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -6562,15 +6571,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -6702,15 +6702,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = -0.04703328013420105,
-					["x"] = 1.399900078773499,
-					["sequence"] = 62,
-					["z"] = 0.3992998600006104,
-					["height"] = 80.00000109419584,
-					["facing"] = 4.71238899230957,
-					["width"] = 120.000071669827,
-				},
 				["Dagger"] = {
 					["y"] = 0.02549999952316284,
 					["x"] = 1.699900150299072,
@@ -6720,14 +6711,23 @@ DressMeModernCameraPresets = {
 					["facing"] = 4.71238899230957,
 					["width"] = 119.9999841341604,
 				},
-				["Shield"] = {
-					["y"] = -0.2432000190019608,
-					["x"] = 1.100000143051148,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 79.99998358706253,
+				["Axe"] = {
+					["y"] = -0.04703328013420105,
+					["x"] = 1.399900078773499,
+					["sequence"] = 62,
+					["z"] = 0.3992998600006104,
+					["height"] = 80.00000109419584,
 					["facing"] = 4.71238899230957,
-					["width"] = 119.9999841341604,
+					["width"] = 120.000071669827,
+				},
+				["Mace"] = {
+					["y"] = 0.02556672133505344,
+					["x"] = 1.299999952316284,
+					["sequence"] = 62,
+					["z"] = 0.4121400117874146,
+					["height"] = 80.00000109419584,
+					["facing"] = 4.71238899230957,
+					["width"] = 120.000071669827,
 				},
 				["Sword"] = {
 					["y"] = 0.1109334230422974,
@@ -6747,14 +6747,14 @@ DressMeModernCameraPresets = {
 					["facing"] = 5.226215362548828,
 					["width"] = 119.9999841341604,
 				},
-				["Mace"] = {
-					["y"] = 0.02556672133505344,
-					["x"] = 1.299999952316284,
-					["sequence"] = 62,
-					["z"] = 0.4121400117874146,
-					["height"] = 80.00000109419584,
+				["Shield"] = {
+					["y"] = -0.2432000190019608,
+					["x"] = 1.100000143051148,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 79.99998358706253,
 					["facing"] = 4.71238899230957,
-					["width"] = 120.000071669827,
+					["width"] = 119.9999841341604,
 				},
 			},
 			["Ranged"] = {
@@ -6796,6 +6796,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 1.570796370506287,
 					["width"] = 120.000071669827,
 				},
+				["Axe"] = {
+					["y"] = -0.4900000095367432,
+					["x"] = 1.399999976158142,
+					["sequence"] = 14,
+					["z"] = 0.3302201926708221,
+					["height"] = 79.99998358706253,
+					["facing"] = 1.537286520004273,
+					["width"] = 120.000071669827,
+				},
 				["Dagger"] = {
 					["y"] = -0.2894667088985443,
 					["x"] = 1.699900031089783,
@@ -6812,15 +6821,6 @@ DressMeModernCameraPresets = {
 					["z"] = 0.2073000073432922,
 					["height"] = 79.99998358706253,
 					["facing"] = 1.570796370506287,
-					["width"] = 120.000071669827,
-				},
-				["Axe"] = {
-					["y"] = -0.4900000095367432,
-					["x"] = 1.399999976158142,
-					["sequence"] = 14,
-					["z"] = 0.3302201926708221,
-					["height"] = 79.99998358706253,
-					["facing"] = 1.537286520004273,
 					["width"] = 120.000071669827,
 				},
 				["Mace"] = {
@@ -6948,15 +6948,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -6966,7 +6957,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -6993,7 +6993,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7042,6 +7042,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -7052,15 +7061,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7192,15 +7192,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -7210,7 +7201,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7237,7 +7237,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7286,6 +7286,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -7296,15 +7305,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7438,15 +7438,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -7456,7 +7447,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7483,7 +7483,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7532,6 +7532,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -7542,15 +7551,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7682,15 +7682,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0.1365333050489426,
-					["x"] = 2.499999761581421,
-					["sequence"] = 62,
-					["z"] = -0.01535980869084597,
-					["height"] = 80.00000109419584,
-					["facing"] = 5.594831466674805,
-					["width"] = 120.000071669827,
-				},
 				["Dagger"] = {
 					["y"] = 0.07680011540651321,
 					["x"] = 2.599999666213989,
@@ -7700,13 +7691,22 @@ DressMeModernCameraPresets = {
 					["facing"] = 5.585053443908691,
 					["width"] = 120.000071669827,
 				},
-				["Shield"] = {
-					["y"] = 0,
-					["x"] = 2.100000143051148,
-					["sequence"] = 3,
-					["z"] = 0.06911996006965637,
+				["Axe"] = {
+					["y"] = 0.1365333050489426,
+					["x"] = 2.499999761581421,
+					["sequence"] = 62,
+					["z"] = -0.01535980869084597,
 					["height"] = 80.00000109419584,
-					["facing"] = 4.71238899230957,
+					["facing"] = 5.594831466674805,
+					["width"] = 120.000071669827,
+				},
+				["Mace"] = {
+					["y"] = 0.1365000009536743,
+					["x"] = 2.499900102615356,
+					["sequence"] = 62,
+					["z"] = -0.0431600846350193,
+					["height"] = 80.00000109419584,
+					["facing"] = 5.585053443908691,
 					["width"] = 120.000071669827,
 				},
 				["Sword"] = {
@@ -7727,13 +7727,13 @@ DressMeModernCameraPresets = {
 					["facing"] = 5.326745510101318,
 					["width"] = 120.000071669827,
 				},
-				["Mace"] = {
-					["y"] = 0.1365000009536743,
-					["x"] = 2.499900102615356,
-					["sequence"] = 62,
-					["z"] = -0.0431600846350193,
+				["Shield"] = {
+					["y"] = 0,
+					["x"] = 2.100000143051148,
+					["sequence"] = 3,
+					["z"] = 0.06911996006965637,
 					["height"] = 80.00000109419584,
-					["facing"] = 5.585053443908691,
+					["facing"] = 4.71238899230957,
 					["width"] = 120.000071669827,
 				},
 			},
@@ -7776,6 +7776,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 1.570796370506287,
 					["width"] = 119.9999666270272,
 				},
+				["Axe"] = {
+					["y"] = -0.2301334291696549,
+					["x"] = 2.299999952316284,
+					["sequence"] = 12,
+					["z"] = 0.1663599759340286,
+					["height"] = 80.00000109419584,
+					["facing"] = 1.570796370506287,
+					["width"] = 120.000071669827,
+				},
 				["Dagger"] = {
 					["y"] = -0.2556001245975494,
 					["x"] = 2.499899864196777,
@@ -7793,15 +7802,6 @@ DressMeModernCameraPresets = {
 					["height"] = 79.99998358706253,
 					["facing"] = 1.570796370506287,
 					["width"] = 119.9999666270272,
-				},
-				["Axe"] = {
-					["y"] = -0.2301334291696549,
-					["x"] = 2.299999952316284,
-					["sequence"] = 12,
-					["z"] = 0.1663599759340286,
-					["height"] = 80.00000109419584,
-					["facing"] = 1.570796370506287,
-					["width"] = 120.000071669827,
 				},
 				["Mace"] = {
 					["y"] = -0.2300000041723251,
@@ -7928,15 +7928,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -7946,7 +7937,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -7973,7 +7973,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8022,6 +8022,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -8032,15 +8041,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8172,15 +8172,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = -0.004266439937055111,
-					["x"] = 1.400000095367432,
-					["sequence"] = 13,
-					["z"] = 0.2355200350284576,
-					["height"] = 80.00000109419584,
-					["facing"] = -1.186823844909668,
-					["width"] = 120.000045409127,
-				},
 				["Dagger"] = {
 					["y"] = 0.051466453820467,
 					["x"] = 1.399899959564209,
@@ -8190,14 +8181,23 @@ DressMeModernCameraPresets = {
 					["facing"] = -0.9745914340019226,
 					["width"] = 119.9999841341604,
 				},
-				["Shield"] = {
-					["y"] = -0.04266663640737534,
-					["x"] = 1.100000143051148,
-					["sequence"] = 3,
-					["z"] = 0.1612798869609833,
+				["Axe"] = {
+					["y"] = -0.004266439937055111,
+					["x"] = 1.400000095367432,
+					["sequence"] = 13,
+					["z"] = 0.2355200350284576,
 					["height"] = 80.00000109419584,
-					["facing"] = 4.71238899230957,
-					["width"] = 120.000071669827,
+					["facing"] = -1.186823844909668,
+					["width"] = 120.000045409127,
+				},
+				["Mace"] = {
+					["y"] = -0.0338669940829277,
+					["x"] = 1.5,
+					["sequence"] = 13,
+					["z"] = 0.2022199779748917,
+					["height"] = 79.99998358706253,
+					["facing"] = -0.7288487553596497,
+					["width"] = 120.000045409127,
 				},
 				["Sword"] = {
 					["y"] = 0.1324660927057266,
@@ -8217,14 +8217,14 @@ DressMeModernCameraPresets = {
 					["facing"] = 5.315571308135986,
 					["width"] = 120.000045409127,
 				},
-				["Mace"] = {
-					["y"] = -0.0338669940829277,
-					["x"] = 1.5,
-					["sequence"] = 13,
-					["z"] = 0.2022199779748917,
-					["height"] = 79.99998358706253,
-					["facing"] = -0.7288487553596497,
-					["width"] = 120.000045409127,
+				["Shield"] = {
+					["y"] = -0.04266663640737534,
+					["x"] = 1.100000143051148,
+					["sequence"] = 3,
+					["z"] = 0.1612798869609833,
+					["height"] = 80.00000109419584,
+					["facing"] = 4.71238899230957,
+					["width"] = 120.000071669827,
 				},
 			},
 			["Ranged"] = {
@@ -8266,6 +8266,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 1.71042263507843,
 					["width"] = 120.000071669827,
 				},
+				["Axe"] = {
+					["y"] = -0.3230000138282776,
+					["x"] = 1.399999976158142,
+					["sequence"] = 14,
+					["z"] = 0.5885000228881836,
+					["height"] = 80.00000109419584,
+					["facing"] = 1.675516128540039,
+					["width"] = 120.000071669827,
+				},
 				["Dagger"] = {
 					["y"] = -0.3405999541282654,
 					["x"] = 1.600000143051148,
@@ -8282,15 +8291,6 @@ DressMeModernCameraPresets = {
 					["z"] = 0.639940083026886,
 					["height"] = 80.00000109419584,
 					["facing"] = 1.71042263507843,
-					["width"] = 120.000071669827,
-				},
-				["Axe"] = {
-					["y"] = -0.3230000138282776,
-					["x"] = 1.399999976158142,
-					["sequence"] = 14,
-					["z"] = 0.5885000228881836,
-					["height"] = 80.00000109419584,
-					["facing"] = 1.675516128540039,
 					["width"] = 120.000071669827,
 				},
 				["Mace"] = {
@@ -8418,15 +8418,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -8436,7 +8427,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8463,7 +8463,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8512,6 +8512,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -8522,15 +8531,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8662,15 +8662,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -8680,7 +8671,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8707,7 +8707,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8756,6 +8756,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -8766,15 +8775,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8908,15 +8908,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -8926,7 +8917,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -8953,7 +8953,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -9002,6 +9002,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -9012,15 +9021,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -9152,15 +9152,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -9170,7 +9161,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -9197,7 +9197,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -9246,6 +9246,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -9256,15 +9265,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -9398,15 +9398,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -9416,7 +9407,16 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Shield"] = {
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
+				["Mace"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -9443,7 +9443,7 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
-				["Mace"] = {
+				["Shield"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -9492,6 +9492,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 0,
 					["width"] = 100,
 				},
+				["Axe"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["sequence"] = 3,
+					["z"] = 0,
+					["height"] = 120,
+					["facing"] = 0,
+					["width"] = 100,
+				},
 				["Dagger"] = {
 					["y"] = 0,
 					["x"] = 0,
@@ -9502,15 +9511,6 @@ DressMeModernCameraPresets = {
 					["width"] = 100,
 				},
 				["2H Mace"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["sequence"] = 3,
-					["z"] = 0,
-					["height"] = 120,
-					["facing"] = 0,
-					["width"] = 100,
-				},
-				["Axe"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["sequence"] = 3,
@@ -9642,15 +9642,6 @@ DressMeModernCameraPresets = {
 				},
 			},
 			["Off-hand"] = {
-				["Axe"] = {
-					["y"] = 0.3370662927627564,
-					["x"] = 1.800000190734863,
-					["sequence"] = 13,
-					["z"] = -0.0230395644903183,
-					["height"] = 80.00000109419584,
-					["facing"] = 4.71238899230957,
-					["width"] = 120.000071669827,
-				},
 				["Dagger"] = {
 					["y"] = 0.3199998438358307,
 					["x"] = 1.900000333786011,
@@ -9660,14 +9651,23 @@ DressMeModernCameraPresets = {
 					["facing"] = 4.71238899230957,
 					["width"] = 119.9999841341604,
 				},
-				["Shield"] = {
-					["y"] = -0.02986647002398968,
+				["Axe"] = {
+					["y"] = 0.3370662927627564,
 					["x"] = 1.800000190734863,
-					["sequence"] = 1,
-					["z"] = -0.1152001842856407,
+					["sequence"] = 13,
+					["z"] = -0.0230395644903183,
 					["height"] = 80.00000109419584,
 					["facing"] = 4.71238899230957,
 					["width"] = 120.000071669827,
+				},
+				["Mace"] = {
+					["y"] = 0.3583999574184418,
+					["x"] = 1.800000309944153,
+					["sequence"] = 13,
+					["z"] = -0.06399983912706375,
+					["height"] = 79.99998358706253,
+					["facing"] = 4.71238899230957,
+					["width"] = 119.9999841341604,
 				},
 				["Sword"] = {
 					["y"] = 0.3498666286468506,
@@ -9687,14 +9687,14 @@ DressMeModernCameraPresets = {
 					["facing"] = 5.181532382965088,
 					["width"] = 120.000071669827,
 				},
-				["Mace"] = {
-					["y"] = 0.3583999574184418,
-					["x"] = 1.800000309944153,
-					["sequence"] = 13,
-					["z"] = -0.06399983912706375,
-					["height"] = 79.99998358706253,
+				["Shield"] = {
+					["y"] = -0.02986647002398968,
+					["x"] = 1.800000190734863,
+					["sequence"] = 1,
+					["z"] = -0.1152001842856407,
+					["height"] = 80.00000109419584,
 					["facing"] = 4.71238899230957,
-					["width"] = 119.9999841341604,
+					["width"] = 120.000071669827,
 				},
 			},
 			["Ranged"] = {
@@ -9736,6 +9736,15 @@ DressMeModernCameraPresets = {
 					["facing"] = 1.570796370506287,
 					["width"] = 120.000071669827,
 				},
+				["Axe"] = {
+					["y"] = -0.07679994404315949,
+					["x"] = 1.700000286102295,
+					["sequence"] = 13,
+					["z"] = 0.06143995001912117,
+					["height"] = 80.00000109419584,
+					["facing"] = 1.570796370506287,
+					["width"] = 120.000071669827,
+				},
 				["Dagger"] = {
 					["y"] = -0.004266663454473019,
 					["x"] = 1.800000309944153,
@@ -9750,15 +9759,6 @@ DressMeModernCameraPresets = {
 					["x"] = 1.600000262260437,
 					["sequence"] = 13,
 					["z"] = 0.03584007918834686,
-					["height"] = 80.00000109419584,
-					["facing"] = 1.570796370506287,
-					["width"] = 120.000071669827,
-				},
-				["Axe"] = {
-					["y"] = -0.07679994404315949,
-					["x"] = 1.700000286102295,
-					["sequence"] = 13,
-					["z"] = 0.06143995001912117,
 					["height"] = 80.00000109419584,
 					["facing"] = 1.570796370506287,
 					["width"] = 120.000071669827,

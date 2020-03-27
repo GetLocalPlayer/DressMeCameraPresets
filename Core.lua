@@ -1,6 +1,6 @@
 local previewMaxWidth, previewMaxHeight = 500, 500
 local previewMinWidth, previewMinHeight = 50, 50
-local windowWidth, windowHeight = 1024, 600
+local windowWidth, windowHeight = 1024, 620
 local minimalDress = {2568, 4343}
 
 local addon, ns = ...
@@ -374,8 +374,8 @@ local function createDefaultCameraPreset()
     local sex = {2, 3} -- male = 2, female = 3
     local slots = {
         ["Armor"] = {"Head", "Shoulder", "Back", "Chest", "Wrist", "Gloves", "Waist", "Legs", "Feet"},
-        ["Main Hand"] = {"Dagger", "Sword", "Axe", "Mace", "Polearm", "2H Sword", "2H Axe", "2H Mace"},
-        ["Off-hand"] = {"Dagger", "Sword", "Axe", "Mace", "Held in Off-hand", "Shield"},
+        ["Main Hand"] = {"Fist", "Dagger", "Sword", "Axe", "Mace", "Polearm", "2H Sword", "2H Axe", "2H Mace"},
+        ["Off-hand"] = {"Fist", "Dagger", "Sword", "Axe", "Mace", "Held in Off-hand", "Shield"},
         ["Ranged"] = {"Bow", "Gun", "Wand"},
     }
     local preset = {}

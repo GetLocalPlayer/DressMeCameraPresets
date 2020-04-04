@@ -397,7 +397,7 @@ local function createDefaultCameraPreset()
 end
 
 
-local classicModelsCheckBox = CreateFrame("CheckButton", "myCheckButton_GlobalName", window, "ChatConfigCheckButtonTemplate")
+local classicModelsCheckBox = CreateFrame("CheckButton", "DressMe_ClassicModelsCheckBox", window, "ChatConfigCheckButtonTemplate")
 classicModelsCheckBox:SetPoint("TOPRIGHT", -16, -16)
 
 local classicModelsLabel = classicModelsCheckBox:CreateFontString(nil, "OVERLAY", "GameFontNormal")
@@ -406,7 +406,7 @@ classicModelsLabel:SetJustifyH("LEFT")
 classicModelsLabel:SetHeight(15)
 classicModelsLabel:SetText("Classic models")
 
-local modernModelsCheckBox = CreateFrame("CheckButton", "myCheckButton_GlobalName", window, "ChatConfigCheckButtonTemplate")
+local modernModelsCheckBox = CreateFrame("CheckButton", "DressMe_ModernModelsCheckBox", window, "ChatConfigCheckButtonTemplate")
 modernModelsCheckBox:SetPoint("TOP", classicModelsCheckBox, "BOTTOM", 0, -2)
 
 local modernModelsLabel = modernModelsCheckBox:CreateFontString(nil, "OVERLAY", "GameFontNormal")

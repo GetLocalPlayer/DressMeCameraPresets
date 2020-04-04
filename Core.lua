@@ -372,12 +372,16 @@ end
 local function createDefaultCameraPreset()
     local races = {"Human", "NightElf", "Dwarf", "Gnome", "Draenei", "Orc", "Troll", "Scourge", "Tauren", "BloodElf"}
     local sex = {2, 3} -- male = 2, female = 3
-    local slots = {
+    local classes = {
         ["Armor"] = {"Head", "Shoulder", "Back", "Chest", "Wrist", "Gloves", "Waist", "Legs", "Feet"},
         ["Main Hand"] = {"Fist", "Dagger", "Sword", "Axe", "Mace", "Polearm", "2H Sword", "2H Axe", "2H Mace"},
         ["Off-hand"] = {"Fist", "Dagger", "Sword", "Axe", "Mace", "Held in Off-hand", "Shield"},
         ["Ranged"] = {"Bow", "Gun", "Wand"},
     }
+    --[[ Values for several subclasses will be copied at LOGOUT event
+    Polearm -> Staff 
+    Chest -> Shirt, Tabard
+    Gun -> Crossbow]]
     local preset = {}
     for i = 1, #races do
         local r = races[i]
@@ -385,10 +389,10 @@ local function createDefaultCameraPreset()
         for k = 1, #sex do
             local s = sex[k]
             preset[r][s] = {}
-            for slot, classes in pairs(slots) do
+            for slot, subclasses in pairs(classes) do
                 preset[r][s][slot] = {}
-                for n = 1, #classes do
-                    preset[r][s][slot][classes[n]] = {width = 100, height = 120, sequence = 3, x = 0, y = 0, z = 0, facing = 0}
+                for n = 1, #subclasses do
+                    preset[r][s][slot][subclasses[n]] = {width = 100, height = 120, sequence = 3, x = 0, y = 0, z = 0, facing = 0}
                 end
             end
         end
@@ -458,5 +462,28 @@ f:SetScript("OnEvent", function(self, event, name)
         cameraPresets = _G["DressMeModernCameraPresets"][raceFileName][sex]
         createSlotButtons()
         modernModelsCheckBox:SetChecked(true)
+    elseif event == "PLAYER_LOGOUT" then
+        local classic = _G["DressMeCameraPresets"]
+        for race, sexes in pairs(classic) do
+            for sex, slots in pairs(sexes) do
+                -- Copy polearm's values to staff
+                slots["Main Hand"]["Staff"] = {}
+                for k, v in pairs(slots["Main Hand"]["Polearm"]) do
+                    slots["Main Hand"]["Staff"][k] = v
+                end
+                -- Copy gun's values to crossbow
+                slots["Ranged"]["Crossbow"] = {}
+                for k, v in pairs(slots["Ranged"]["Gun"]) do
+                    slots["Ranged"]["Crossbow"][k] = v
+                end
+                -- Copy chest's values to tabard and shirt
+                slots["Armor"]["Tabard"] = {}
+                slots["Armor"]["Shirt"] = {}
+                for k, v in pairs(slots["Armor"]["Chest"]) do
+                    slots["Armor"]["Tabard"][k] = v
+                    slots["Armor"]["Shirt"][k] = v
+                end
+            end
+        end
     end
 end)

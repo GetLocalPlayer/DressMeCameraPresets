@@ -463,25 +463,27 @@ f:SetScript("OnEvent", function(self, event, name)
         createSlotButtons()
         modernModelsCheckBox:SetChecked(true)
     elseif event == "PLAYER_LOGOUT" then
-        local classic = _G["DressMeCameraPresets"]
-        for race, sexes in pairs(classic) do
-            for sex, slots in pairs(sexes) do
-                -- Copy polearm's values to staff
-                slots["Main Hand"]["Staff"] = {}
-                for k, v in pairs(slots["Main Hand"]["Polearm"]) do
-                    slots["Main Hand"]["Staff"][k] = v
-                end
-                -- Copy gun's values to crossbow
-                slots["Ranged"]["Crossbow"] = {}
-                for k, v in pairs(slots["Ranged"]["Gun"]) do
-                    slots["Ranged"]["Crossbow"][k] = v
-                end
-                -- Copy chest's values to tabard and shirt
-                slots["Armor"]["Tabard"] = {}
-                slots["Armor"]["Shirt"] = {}
-                for k, v in pairs(slots["Armor"]["Chest"]) do
-                    slots["Armor"]["Tabard"][k] = v
-                    slots["Armor"]["Shirt"][k] = v
+        local versions = {_G["DressMeCameraPresets"], _G["DressMeModernCameraPresets"]}
+        for i = 1, #versions do
+            for race, sexes in pairs(versions[i]) do
+                for sex, slots in pairs(sexes) do
+                    -- Copy polearm's values to staff
+                    slots["Main Hand"]["Staff"] = {}
+                    for k, v in pairs(slots["Main Hand"]["Polearm"]) do
+                        slots["Main Hand"]["Staff"][k] = v
+                    end
+                    -- Copy gun's values to crossbow
+                    slots["Ranged"]["Crossbow"] = {}
+                    for k, v in pairs(slots["Ranged"]["Gun"]) do
+                        slots["Ranged"]["Crossbow"][k] = v
+                    end
+                    -- Copy chest's values to tabard and shirt
+                    slots["Armor"]["Tabard"] = {}
+                    slots["Armor"]["Shirt"] = {}
+                    for k, v in pairs(slots["Armor"]["Chest"]) do
+                        slots["Armor"]["Tabard"][k] = v
+                        slots["Armor"]["Shirt"][k] = v
+                    end
                 end
             end
         end

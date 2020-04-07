@@ -312,26 +312,30 @@ local function createSlotButtons()
         table.insert(slotButtons, slotBtn)
         local classButtons = {}
         local classNames = {} -- to sort class buttons
+         -- These presets' values will be obtained by copying them from similar ones, so they are ignored.
+        local ignored = {["Tabard"] = true, ["Shirt"] = true, ["Thrown"] = true, ["Crossbow"] = true, ["Staff"] = true}
         for class, preset in pairs(classes) do
-            local classBtn = CreateFrame("Button", ("DressMeSetupClassButton%s"):format(class), slotBtn, "OptionsListButtonTemplate")
-            classBtn:SetParent(slotBtn)
-            classBtn:SetText("|cffffffff" .. class .. FONT_COLOR_CODE_CLOSE)
-            classBtn:SetScript("OnClick", function(self)
-                local preset = cameraPresets[slot][class]
-                widthSlider:SetValue(preset.width)
-                heightSlider:SetValue(previewMaxHeight - preset.height + previewMinHeight)
-                preview:SetPosition(preset.x, preset.y, preset.z)
-                preview:SetFacing(preset.facing)
-                sequenceEditBox:SetNumber(preset.sequence)
-                if selectedClassButton ~= nil then
-                    selectedClassButton:UnlockHighlight()
-                end
-                selectedClassButton = self
-                selectedClassButton:LockHighlight()
-                selectedPreset = preset
-            end)
-            classButtons[class] = classBtn
-            table.insert(classNames, class)
+            if not ignored[class] then
+                local classBtn = CreateFrame("Button", ("DressMeSetupClassButton%s"):format(class), slotBtn, "OptionsListButtonTemplate")
+                classBtn:SetParent(slotBtn)
+                classBtn:SetText("|cffffffff" .. class .. FONT_COLOR_CODE_CLOSE)
+                classBtn:SetScript("OnClick", function(self)
+                    local preset = cameraPresets[slot][class]
+                    widthSlider:SetValue(preset.width)
+                    heightSlider:SetValue(previewMaxHeight - preset.height + previewMinHeight)
+                    preview:SetPosition(preset.x, preset.y, preset.z)
+                    preview:SetFacing(preset.facing)
+                    sequenceEditBox:SetNumber(preset.sequence)
+                    if selectedClassButton ~= nil then
+                        selectedClassButton:UnlockHighlight()
+                    end
+                    selectedClassButton = self
+                    selectedClassButton:LockHighlight()
+                    selectedPreset = preset
+                end)
+                classButtons[class] = classBtn
+                table.insert(classNames, class)
+            end
         end
         table.sort(classNames)
         classButtons[classNames[1]]:SetPoint("TOPLEFT", slotBtn, "BOTTOMLEFT", 24, 0)
@@ -476,6 +480,11 @@ f:SetScript("OnEvent", function(self, event, name)
                     slots["Ranged"]["Crossbow"] = {}
                     for k, v in pairs(slots["Ranged"]["Gun"]) do
                         slots["Ranged"]["Crossbow"][k] = v
+                    end
+                    -- Copy wand's values to thrown
+                    slots["Ranged"]["Thrown"] = {}
+                    for k, v in pairs(slots["Ranged"]["Wand"]) do
+                        slots["Ranged"]["Thrown"][k] = v
                     end
                     -- Copy chest's values to tabard and shirt
                     slots["Armor"]["Tabard"] = {}

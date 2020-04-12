@@ -377,7 +377,7 @@ local function createDefaultCameraPreset()
     local races = {"Human", "NightElf", "Dwarf", "Gnome", "Draenei", "Orc", "Troll", "Scourge", "Tauren", "BloodElf"}
     local sex = {2, 3} -- male = 2, female = 3
     local classes = {
-        ["Armor"] = {"Head", "Shoulder", "Back", "Chest", "Wrist", "Gloves", "Waist", "Legs", "Feet"},
+        ["Armor"] = {"Head", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet"},
         ["Main Hand"] = {"Fist", "Dagger", "Sword", "Axe", "Mace", "Polearm", "2H Sword", "2H Axe", "2H Mace"},
         ["Off-hand"] = {"Fist", "Dagger", "Sword", "Axe", "Mace", "Held in Off-hand", "Shield"},
         ["Ranged"] = {"Bow", "Gun", "Wand"},

@@ -1,5 +1,5 @@
 
-DressMeCameraPresets = {
+DressMeCameraSetup = {
 	["Draenei"] = {
 		[2] = {
 			["Armor"] = {
@@ -6161,7 +6161,7 @@ DressMeCameraPresets = {
 		},
 	},
 }
-DressMeModernCameraPresets = {
+DressMeModernCameraSetup = {
 	["Draenei"] = {
 		[2] = {
 			["Armor"] = {

@@ -5,8 +5,8 @@ local minimalDress = {2568, 4343}
 
 local addon, ns = ...
 
-local cameraPresets = nil
-local selectedPreset = nil
+local cameraSetup = nil
+local selectedSetup = nil
 
 local sex = UnitSex("player")
 local race, raceFileName = UnitRace("player")
@@ -58,18 +58,18 @@ xEditBox:SetPoint("TOPRIGHT", -16, -256)
 xEditBox:SetScript("OnEnterPressed", function(self)
     local value = tonumber(self:GetText())
     if value == nil then
-        self:SetText(tostring(selectedPreset.x))
+        self:SetText(tostring(selectedSetup.x))
     else
         local x, y, z = preview:GetPosition()
         preview:SetPosition(value, y, z)
         x, y, z = preview:GetPosition()
-        selectedPreset.x = x
+        selectedSetup.x = x
         self:SetText(tostring(x))
     end
     self:ClearFocus()
 end)
 xEditBox:SetScript("OnEscapePressed", function(self)
-    self:SetText(tostring(selectedPreset.x))
+    self:SetText(tostring(selectedSetup.x))
     self:ClearFocus()
 end)
 
@@ -81,18 +81,18 @@ yEditBox:SetPoint("TOPRIGHT", xEditBox, "BOTTOMRIGHT", 0, -5)
 yEditBox:SetScript("OnEnterPressed", function(self)
     local value = tonumber(self:GetText())
     if value == nil then
-        self:SetText(tostring(selectedPreset.y))
+        self:SetText(tostring(selectedSetup.y))
     else
         local x, y, z = preview:GetPosition()
         preview:SetPosition(x, value, z)
         x, y, z = preview:GetPosition()
-        selectedPreset.y = y
+        selectedSetup.y = y
         self:SetText(tostring(y))
     end
     self:ClearFocus()
 end)
 yEditBox:SetScript("OnEscapePressed", function(self)
-    self:SetText(tostring(selectedPreset.y))
+    self:SetText(tostring(selectedSetup.y))
     self:ClearFocus()
 end)
 
@@ -104,18 +104,18 @@ zEditBox:SetPoint("TOPRIGHT", yEditBox, "BOTTOMRIGHT", 0, -5)
 zEditBox:SetScript("OnEnterPressed", function(self)
     local value = tonumber(self:GetText())
     if value == nil then
-        self:SetText(tostring(selectedPreset.z))
+        self:SetText(tostring(selectedSetup.z))
     else
         local x, y, z = preview:GetPosition()
         preview:SetPosition(x, y, value)
         x, y, z = preview:GetPosition()
-        selectedPreset.z = z
+        selectedSetup.z = z
         self:SetText(tostring(z))
     end
     self:ClearFocus()
 end)
 zEditBox:SetScript("OnEscapePressed", function(self)
-    self:SetText(tostring(selectedPreset.z))
+    self:SetText(tostring(selectedSetup.z))
     self:ClearFocus()
 end)
 
@@ -127,16 +127,16 @@ facingEditBox:SetPoint("TOPRIGHT", zEditBox, "BOTTOMRIGHT", 0, -5)
 facingEditBox:SetScript("OnEnterPressed", function(self)
     local value = tonumber(self:GetText())
     if value == nil then
-        self:SetText(tostring(math.floor(math.deg(selectedPreset.facing))))
+        self:SetText(tostring(math.floor(math.deg(selectedSetup.facing))))
     else
         value = math.rad(value)
-        selectedPreset.facing = value
+        selectedSetup.facing = value
         preview:SetFacing(value)
     end
     self:ClearFocus()
 end)
 facingEditBox:SetScript("OnEscapePressed", function(self)
-    facingEditBox:SetText(tostring(math.floor(math.deg(selectedPreset.facing))))
+    facingEditBox:SetText(tostring(math.floor(math.deg(selectedSetup.facing))))
     self:ClearFocus()
 end)
 
@@ -146,25 +146,37 @@ local sequenceEditBox, sequenceLabel = ns:CreateEditBox(nil, window, "Sequence i
 sequenceEditBox:SetNumeric(true)
 sequenceEditBox:SetPoint("TOPRIGHT", facingEditBox, "BOTTOMRIGHT", 0, -5)
 sequenceEditBox:SetScript("OnEnterPressed", function(self)
-    selectedPreset.sequence = self:GetNumber()
+    selectedSetup.sequence = self:GetNumber()
     self:ClearFocus()
 end)
 sequenceEditBox:SetScript("OnEscapePressed", function(self)
-    self:SetNumber(selectedPreset.sequence)
+    self:SetNumber(selectedSetup.sequence)
     self:ClearFocus()
 end)
 
 sequenceLabel:SetPoint("RIGHT", sequenceLabel:GetParent(), "LEFT", -5, 0)
 
+local btnPrevSeq = CreateFrame("Button", "DressMeSetupButtonPreviousSequence", sequenceEditBox, "UIPanelButtonTemplate2")
+btnPrevSeq:SetPoint("TOPLEFT", btnPrevSeq:GetParent(), "BOTTOMLEFT", 0, -2)
+btnPrevSeq:SetText("<")
+btnPrevSeq:SetWidth(30)
+btnPrevSeq:SetScript("OnClick", function() sequenceEditBox:SetNumber(sequenceEditBox:GetNumber() - 1) end)
+
+local btnNextSeq = CreateFrame("Button", "DressMeSetupButtonNextSequence", sequenceEditBox, "UIPanelButtonTemplate2")
+btnNextSeq:SetPoint("TOPRIGHT", btnNextSeq:GetParent(), "BOTTOMRIGHT", 0, -2)
+btnNextSeq:SetText(">")
+btnNextSeq:SetWidth(30)
+btnNextSeq:SetScript("OnClick", function() sequenceEditBox:SetNumber(sequenceEditBox:GetNumber() + 1) end)
+
 preview:SetScript("OnSizeChanged", function(self, width, height)
-    selectedPreset.width = width
-    selectedPreset.height = height
+    selectedSetup.width = width
+    selectedSetup.height = height
 end)
 preview:SetScript("OnUpdateModel", function(self)
     local x, y, z = self:GetPosition()
     local facing = self:GetFacing()
-    selectedPreset.x, selectedPreset.y, selectedPreset.z = x, y, z
-    selectedPreset.facing = facing
+    selectedSetup.x, selectedSetup.y, selectedSetup.z = x, y, z
+    selectedSetup.facing = facing
     if not xEditBox:HasFocus() then xEditBox:SetText(tostring(x)) end
     if not yEditBox:HasFocus() then yEditBox:SetText(tostring(y)) end
     if not zEditBox:HasFocus() then zEditBox:SetText(tostring(z)) end
@@ -302,11 +314,11 @@ end)
 
 local selectedClassButton = nil
 
--- Called on ADDON_LOADED since the buttons depend on camera preset
+-- Called on ADDON_LOADED since the buttons depend on camera setup
 local function createSlotButtons()
     local slotButtons = {}
     local slotChildren = {}
-    for slot, classes in pairs(cameraPresets) do
+    for slot, classes in pairs(cameraSetup) do
         local slotBtn = CreateFrame("Button", ("DressMeSetupSlotButton%s"):format(slot), window, "OptionsListButtonTemplate")
         slotBtn:SetText(slot)
         table.insert(slotButtons, slotBtn)
@@ -314,24 +326,24 @@ local function createSlotButtons()
         local classNames = {} -- to sort class buttons
          -- These presets' values will be obtained by copying them from similar ones, so they are ignored.
         local ignored = {["Tabard"] = true, ["Shirt"] = true, ["Thrown"] = true, ["Crossbow"] = true, ["Staff"] = true}
-        for class, preset in pairs(classes) do
+        for class, setup in pairs(classes) do
             if not ignored[class] then
                 local classBtn = CreateFrame("Button", ("DressMeSetupClassButton%s"):format(class), slotBtn, "OptionsListButtonTemplate")
                 classBtn:SetParent(slotBtn)
                 classBtn:SetText("|cffffffff" .. class .. FONT_COLOR_CODE_CLOSE)
                 classBtn:SetScript("OnClick", function(self)
-                    local preset = cameraPresets[slot][class]
-                    widthSlider:SetValue(preset.width)
-                    heightSlider:SetValue(previewMaxHeight - preset.height + previewMinHeight)
-                    preview:SetPosition(preset.x, preset.y, preset.z)
-                    preview:SetFacing(preset.facing)
-                    sequenceEditBox:SetNumber(preset.sequence)
+                    local setup = cameraSetup[slot][class]
+                    widthSlider:SetValue(setup.width)
+                    heightSlider:SetValue(previewMaxHeight - setup.height + previewMinHeight)
+                    preview:SetPosition(setup.x, setup.y, setup.z)
+                    preview:SetFacing(setup.facing)
+                    sequenceEditBox:SetNumber(setup.sequence)
                     if selectedClassButton ~= nil then
                         selectedClassButton:UnlockHighlight()
                     end
                     selectedClassButton = self
                     selectedClassButton:LockHighlight()
-                    selectedPreset = preset
+                    selectedSetup = setup
                 end)
                 classButtons[class] = classBtn
                 table.insert(classNames, class)
@@ -373,7 +385,7 @@ local function createSlotButtons()
 end
 
 
-local function createDefaultCameraPreset()
+local function createDefaultCameraSetup()
     local races = {"Human", "NightElf", "Dwarf", "Gnome", "Draenei", "Orc", "Troll", "Scourge", "Tauren", "BloodElf"}
     local sex = {2, 3} -- male = 2, female = 3
     local classes = {
@@ -386,22 +398,22 @@ local function createDefaultCameraPreset()
     Polearm -> Staff 
     Chest -> Shirt, Tabard
     Gun -> Crossbow]]
-    local preset = {}
+    local setup = {}
     for i = 1, #races do
         local r = races[i]
-        preset[r] = {}
+        setup[r] = {}
         for k = 1, #sex do
             local s = sex[k]
-            preset[r][s] = {}
+            setup[r][s] = {}
             for slot, subclasses in pairs(classes) do
-                preset[r][s][slot] = {}
+                setup[r][s][slot] = {}
                 for n = 1, #subclasses do
-                    preset[r][s][slot][subclasses[n]] = {width = 100, height = 120, sequence = 3, x = 0, y = 0, z = 0, facing = 0}
+                    setup[r][s][slot][subclasses[n]] = {width = 100, height = 120, sequence = 3, x = 0, y = 0, z = 0, facing = 0}
                 end
             end
         end
     end
-    return preset
+    return setup
 end
 
 
@@ -428,7 +440,7 @@ classicModelsCheckBox:SetScript("OnClick", function(self)
         self:SetChecked(true)
     else
         modernModelsCheckBox:SetChecked(false)
-        cameraPresets = _G["DressMeCameraPresets"][raceFileName][sex]
+        cameraSetup = _G["DressMeCameraSetup"][raceFileName][sex]
         selectedClassButton:Click("LeftButton", true)
     end
 end)
@@ -438,15 +450,15 @@ modernModelsCheckBox:SetScript("OnClick", function(self)
         self:SetChecked(true)
     else
         classicModelsCheckBox:SetChecked(false)
-        cameraPresets = _G["DressMeModernCameraPresets"][raceFileName][sex]
+        cameraSetup = _G["DressMeModernCameraSetup"][raceFileName][sex]
         selectedClassButton:Click("LeftButton", true)
     end
 end)
 
-SLASH_DRESSMESETUP1 = "/dmpresets"
+SLASH_DRESSMESETUP1 = "/dmsetup"
 
 SlashCmdList["DRESSMESETUP"] = function(msg)
-    if cameraPresets == nil then
+    if cameraSetup == nil then
         print("DressMeSetup isn't loaded yet.")
     else
         if window:IsShown() then window:Hide() else window:Show() end
@@ -459,15 +471,15 @@ f:RegisterEvent("ADDON_LOADED")
 f:RegisterEvent("PLAYER_LOGOUT")
 f:SetScript("OnEvent", function(self, event, name)
     if event == "ADDON_LOADED" and name == addon then
-        if _G["DressMeCameraPresets"] == nil then
-            _G["DressMeCameraPresets"] = createDefaultCameraPreset()
-            _G["DressMeModernCameraPresets"] = createDefaultCameraPreset()
+        if _G["DressMeCameraSetup"] == nil then
+            _G["DressMeCameraSetup"] = createDefaultCameraSetup()
+            _G["DressMeModernCameraSetup"] = createDefaultCameraSetup()
         end
-        cameraPresets = _G["DressMeModernCameraPresets"][raceFileName][sex]
+        cameraSetup = _G["DressMeModernCameraSetup"][raceFileName][sex]
         createSlotButtons()
         modernModelsCheckBox:SetChecked(true)
     elseif event == "PLAYER_LOGOUT" then
-        local versions = {_G["DressMeCameraPresets"], _G["DressMeModernCameraPresets"]}
+        local versions = {_G["DressMeCameraSetup"], _G["DressMeModernCameraSetup"]}
         for i = 1, #versions do
             for race, sexes in pairs(versions[i]) do
                 for sex, slots in pairs(sexes) do

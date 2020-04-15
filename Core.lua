@@ -5,7 +5,7 @@ local minimalDress = {2568, 4343}
 
 local addon, ns = ...
 
-local cameraSetup = nil
+local previewSetup = nil
 local selectedSetup = nil
 
 local sex = UnitSex("player")
@@ -320,11 +320,11 @@ end)
 
 local selectedClassButton = nil
 
--- Called on ADDON_LOADED since the buttons depend on camera setup
+-- Called on ADDON_LOADED since the buttons depend on preview setup
 local function createSlotButtons()
     local slotButtons = {}
     local slotChildren = {}
-    for slot, classes in pairs(cameraSetup) do
+    for slot, classes in pairs(previewSetup) do
         local slotBtn = CreateFrame("Button", ("DressMeSetupSlotButton%s"):format(slot), window, "OptionsListButtonTemplate")
         slotBtn:SetText(slot)
         table.insert(slotButtons, slotBtn)
@@ -338,7 +338,7 @@ local function createSlotButtons()
                 classBtn:SetParent(slotBtn)
                 classBtn:SetText("|cffffffff" .. class .. FONT_COLOR_CODE_CLOSE)
                 classBtn:SetScript("OnClick", function(self)
-                    local setup = cameraSetup[slot][class]
+                    local setup = previewSetup[slot][class]
 
                     if selectedClassButton ~= nil then
                         selectedClassButton:UnlockHighlight()
@@ -403,7 +403,7 @@ local function createSlotButtons()
 end
 
 
-local function createDefaultCameraSetup()
+local function createDefaultPreviewSetup()
     local races = {"Human", "NightElf", "Dwarf", "Gnome", "Draenei", "Orc", "Troll", "Scourge", "Tauren", "BloodElf"}
     local sex = {2, 3} -- male = 2, female = 3
     local classes = {
@@ -458,7 +458,7 @@ classicModelsCheckBox:SetScript("OnClick", function(self)
         self:SetChecked(true)
     else
         modernModelsCheckBox:SetChecked(false)
-        cameraSetup = _G["DressMeCameraSetup"][raceFileName][sex]
+        previewSetup = _G["DressMePreviewSetup"][raceFileName][sex]
         selectedClassButton:Click("LeftButton", true)
     end
 end)
@@ -468,7 +468,7 @@ modernModelsCheckBox:SetScript("OnClick", function(self)
         self:SetChecked(true)
     else
         classicModelsCheckBox:SetChecked(false)
-        cameraSetup = _G["DressMeModernCameraSetup"][raceFileName][sex]
+        previewSetup = _G["DressMeModernPreviewSetup"][raceFileName][sex]
         selectedClassButton:Click("LeftButton", true)
     end
 end)
@@ -476,7 +476,7 @@ end)
 SLASH_DRESSMESETUP1 = "/dmsetup"
 
 SlashCmdList["DRESSMESETUP"] = function(msg)
-    if cameraSetup == nil then
+    if previewSetup == nil then
         print("DressMeSetup isn't loaded yet.")
     else
         if window:IsShown() then window:Hide() else window:Show() end
@@ -489,15 +489,15 @@ f:RegisterEvent("ADDON_LOADED")
 f:RegisterEvent("PLAYER_LOGOUT")
 f:SetScript("OnEvent", function(self, event, name)
     if event == "ADDON_LOADED" and name == addon then
-        if _G["DressMeCameraSetup"] == nil then
-            _G["DressMeCameraSetup"] = createDefaultCameraSetup()
-            _G["DressMeModernCameraSetup"] = createDefaultCameraSetup()
+        if _G["DressMePreviewSetup"] == nil then
+            _G["DressMePreviewSetup"] = createDefaultPreviewSetup()
+            _G["DressMeModernPreviewSetup"] = createDefaultPreviewSetup()
         end
-        cameraSetup = _G["DressMeModernCameraSetup"][raceFileName][sex]
+        previewSetup = _G["DressMeModernPreviewSetup"][raceFileName][sex]
         createSlotButtons()
         modernModelsCheckBox:SetChecked(true)
     elseif event == "PLAYER_LOGOUT" then
-        local versions = {_G["DressMeCameraSetup"], _G["DressMeModernCameraSetup"]}
+        local versions = {_G["DressMePreviewSetup"], _G["DressMeModernPreviewSetup"]}
         for i = 1, #versions do
             for race, sexes in pairs(versions[i]) do
                 for sex, slots in pairs(sexes) do

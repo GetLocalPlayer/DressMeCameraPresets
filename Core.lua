@@ -160,13 +160,19 @@ local btnPrevSeq = CreateFrame("Button", "DressMeSetupButtonPreviousSequence", s
 btnPrevSeq:SetPoint("TOPLEFT", btnPrevSeq:GetParent(), "BOTTOMLEFT", 0, -2)
 btnPrevSeq:SetText("<")
 btnPrevSeq:SetWidth(30)
-btnPrevSeq:SetScript("OnClick", function() sequenceEditBox:SetNumber(sequenceEditBox:GetNumber() - 1) end)
+btnPrevSeq:SetScript("OnClick", function()
+    sequenceEditBox:SetNumber(sequenceEditBox:GetNumber() - 1)
+    sequenceEditBox:GetScript("OnEnterPressed")(sequenceEditBox)
+end)
 
 local btnNextSeq = CreateFrame("Button", "DressMeSetupButtonNextSequence", sequenceEditBox, "UIPanelButtonTemplate2")
 btnNextSeq:SetPoint("TOPRIGHT", btnNextSeq:GetParent(), "BOTTOMRIGHT", 0, -2)
 btnNextSeq:SetText(">")
 btnNextSeq:SetWidth(30)
-btnNextSeq:SetScript("OnClick", function() sequenceEditBox:SetNumber(sequenceEditBox:GetNumber() + 1) end)
+btnNextSeq:SetScript("OnClick", function()
+    sequenceEditBox:SetNumber(sequenceEditBox:GetNumber() + 1)
+    sequenceEditBox:GetScript("OnEnterPressed")(sequenceEditBox)
+end)
 
 preview:SetScript("OnSizeChanged", function(self, width, height)
     selectedSetup.width = width
@@ -333,17 +339,29 @@ local function createSlotButtons()
                 classBtn:SetText("|cffffffff" .. class .. FONT_COLOR_CODE_CLOSE)
                 classBtn:SetScript("OnClick", function(self)
                     local setup = cameraSetup[slot][class]
-                    widthSlider:SetValue(setup.width)
-                    heightSlider:SetValue(previewMaxHeight - setup.height + previewMinHeight)
-                    preview:SetPosition(setup.x, setup.y, setup.z)
-                    preview:SetFacing(setup.facing)
-                    sequenceEditBox:SetNumber(setup.sequence)
+
                     if selectedClassButton ~= nil then
                         selectedClassButton:UnlockHighlight()
+                        -- clone everything from previeous one 
+                        if IsShiftKeyDown() then
+                            setup.width = selectedSetup.width
+                            setup.height = selectedSetup.height
+                            setup.x = selectedSetup.x
+                            setup.y = selectedSetup.y
+                            setup.z = selectedSetup.z
+                            setup.facing = selectedSetup.facing
+                            setup.sequence = selectedSetup.sequence
+                        end
                     end
                     selectedClassButton = self
                     selectedClassButton:LockHighlight()
                     selectedSetup = setup
+            
+                    widthSlider:SetValue(setup.width)
+                    heightSlider:SetValue(previewMaxHeight - setup.height + previewMinHeight)
+                    preview:SetPosition(setup.x, setup.y, setup.z)
+                    preview:SetFacing(setup.facing)
+                    sequenceEditBox:SetNumber(setup.sequence)                    
                 end)
                 classButtons[class] = classBtn
                 table.insert(classNames, class)

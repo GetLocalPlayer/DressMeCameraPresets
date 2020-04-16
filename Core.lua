@@ -493,9 +493,9 @@ f:SetScript("OnEvent", function(self, event, name)
             _G["DressMePreviewSetup"] = createDefaultPreviewSetup()
             _G["DressMeModernPreviewSetup"] = createDefaultPreviewSetup()
         end
-        previewSetup = _G["DressMeModernPreviewSetup"][raceFileName][sex]
+        previewSetup = _G["DressMePreviewSetup"][raceFileName][sex]
         createSlotButtons()
-        modernModelsCheckBox:SetChecked(true)
+        classicModelsCheckBox:SetChecked(true)
     elseif event == "PLAYER_LOGOUT" then
         local versions = {_G["DressMePreviewSetup"], _G["DressMeModernPreviewSetup"]}
         for i = 1, #versions do
